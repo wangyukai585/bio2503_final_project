@@ -1,0 +1,17 @@
+name: bioinfo_course_project
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - picard
+  - bwa
+  - sra-tools
+  - bcftools
+  - samtools
+  - seqtk
+  - adapterremoval
+  - fastqc
+prefix: /home/wangyukai/.conda/envs/bioinfo_course_project

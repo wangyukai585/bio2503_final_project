@@ -3,7 +3,7 @@
 set -e  # 遇到错误立即退出脚本
 ENV_NAME="bioinfo_course_project"
 
-echo "🚧 正在准备 Conda 环境: $ENV_NAME"
+echo "正在准备 Conda 环境: $ENV_NAME"
 
 # 添加 Bioconda 和 Conda-forge 频道（只需添加一次）
 if ! grep -q "bioconda" ~/.condarc 2>/dev/null; then
